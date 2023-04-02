@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Genos:wght@300;400;500&family=Lato:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Genos", sans-serif;
+  font-family: "Lato", sans-serif;
+  min-height: 500vh;
+}
+/*
+.fixed-container{
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+.top-banner {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  padding: 11px 100px;
+  width: 100%;
+  z-index: 1;
+}
+.banner-text {
+  text-align: center;
+  color: rgba(60, 59, 59, 0.936);
+  letter-spacing: 0.02rem;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+}
+.banner-text a:link {
+  color: rgba(46, 45, 45, 0.936);
+}
+
+.model-3 {
+  margin-top: 40px;
+  background-image: url(/assets/asset\ 0.jpeg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.tesla-logo img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 20px;
+  z-index: 2;
+  margin: 8px 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1;
+}
+.fixed-element {
+  position: fixed;
+  width: 100%;
+}
+
+.nav1 ul,
+.nav2 ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(65, 58, 58);
+}
+
+ul li:hover {
+  border-radius: 6px;
+  background-color: #66666621;
+  cursor: pointer;
+  transition: 0.8s;
+}
+/*
+a:link{
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(65, 58, 58);
+}
+*/
+a:link{
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+a:hover{
+  color: teal;
+}
+
+
+.car-model3 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  
+}
+
+.car-model3 h1 {
+  font-size: 40px;
+  font-weight: 550;
+  letter-spacing: 0.2rem;
+}
+
+.car-model3 p {
+  font-size: 17px;
+  color: grey;
+  letter-spacing: 0.1rem;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  column-gap: 20px;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  bottom: 35px;
+  z-index: 1;
+}
+
+.btn-1 {
+  padding: 10px 40px;
+  color: white;
+  background-color: #2e2d2d;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 700;
+}
+.btn-2 {
+  padding: 10px 40px;
+  color: #484747;
+  background-color: white;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.btn-1:hover,
+.btn-2:hover{
+  color: rgb(116, 116, 206);
+  cursor: pointer;
+}
+
+
+.down-arrow img {
+  width: 15px;
+  
+}
+
+.down-arrow {
+  display: grid;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 55px;
+}
+
+.model-Y h1 {
+  font-size: 40px;
+  font-weight: 550;
+  letter-spacing: 0.2rem;
+}
+
+.model-Y {
+  margin-top: 0px;
+  background-image: url(/assets/asset\ 1.jpeg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.model-Y h1 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  
+}
+
+.model-S h1 {
+  font-size: 40px;
+  font-weight: 550;
+  letter-spacing: 0.2rem;
+}
+
+.model-S {
+  margin-top: 0px;
+  background-image: url(/assets/asset\ 2.jpeg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.model-S h1 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  
+}
+
+.model-X h1 {
+  font-size: 40px;
+  font-weight: 550;
+  letter-spacing: 0.2rem;
+}
+
+.model-X {
+  margin-top: 0px;
+  background-image: url(/assets/asset\ 3.jpeg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.model-X h1 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  
+}
+
+.Solar-Panel h1 {
+  font-size: 40px;
+  font-weight: 550;
+  letter-spacing: 0.2rem;
+}
+
+.Solar-Panel {
+  margin-top: 0px;
+  background-image: url(/assets/asset\ 4.jpeg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.Solar-Panel h1 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  
+}
+.Solar-Panel p {
+  font-size: 14px;
+  color: rgb(21, 21, 21);
+  letter-spacing: 0.1rem;
+  text-align: center;
+  position: relative;
+  top: 105px;
+}
+
+
+.Solar-Roof h1 {
+  font-size: 40px;
+  font-weight: 550;
+  letter-spacing: 0.2rem;
+}
+
+.Solar-Roof {
+  margin-top: 0px;
+  background-image: url(/assets/asset\ 5.webp);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.Solar-Roof h1 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  
+}
+.Solar-Roof p {
+  font-size: 14px;
+  color: rgb(21, 21, 21);
+  letter-spacing: 0.1rem;
+  text-align: center;
+  position: relative;
+  top: 105px;
+}
+
+
+.buy-item {
+  margin-top: 0px;
+  background-image: url(/assets/asset\ 6.jpeg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.buy-item h1 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 550;
+  letter-spacing: 0.2rem;
+  
+}
+
+.footer li{
+  font-size: 12px;
+  color: #6d6b6b;
+  font-weight: 600;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
